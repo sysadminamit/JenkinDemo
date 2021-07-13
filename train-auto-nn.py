@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # train-nn.py
 # Xavier Vasques 13/04/2021
+#modified by amit.chakraborty@hcl.com
 
 import platform
 import sys
