@@ -34,7 +34,7 @@ def train():
     # Models training
 
     # Neural Networks multi-layer perceptron (MLP) algorithm
-    clf_NN = MLPClassifier(solver='adam', activation='relu', alpha=0.0001, hidden_layer_sizes=(500,), random_state=0, max_iter=1000)
+    clf_NN = MLPClassifier(solver='adam', activation='relu', alpha=0.0001, hidden_layer_sizes=(500,), random_state=42, max_iter=1100)
     clf_NN.fit(X_train, y_train)
 
     # Serialize model
