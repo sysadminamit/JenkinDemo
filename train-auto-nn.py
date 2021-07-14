@@ -51,7 +51,7 @@ def train():
          'activation' : ['identity', 'logistic', 'tanh', 'relu'],
          'solver' : ['lbfgs', 'sgd', 'adam'],
          'hidden_layer_sizes': [(300,),(500,)],
-         'max_iter': [1000],
+         'max_iter': [1200],
          'alpha': [1e-5, 0.001, 0.01, 0.1, 1, 10],
          'random_state':[0]
      }
