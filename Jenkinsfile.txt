@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "amitc8250"
+        registry = "amitc8250/jenkindemo"
         registryCredential = 'amitc8250'
         dockerImage = ''
     }
