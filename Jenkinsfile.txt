@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registry = "amitc8250/jenkindemo"
-        registryCredential = 'DockerHub'
+        registryCredential = 'amitc8250'
         dockerImage = ''
     }
     agent any
